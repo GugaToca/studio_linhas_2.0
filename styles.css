@@ -548,6 +548,25 @@ body {
   .hero-buttons {
     justify-content: flex-start;
   }
+
+  .nav-list {
+  width: 100%;
+  text-align: center; /* Centraliza os links */
+  padding-left: 0;
+}
+
+.nav-list li {
+  width: 100%;
+}
+
+.nav-list a {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center; /* Garante alinhamento */
+}
+
+
 }
 
 @media (max-width: 576px) {
